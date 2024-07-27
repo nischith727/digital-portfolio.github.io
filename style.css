@@ -1,0 +1,134 @@
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+    background-color: #618264;
+    color: #B0D9B1;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.heading {
+    color: #618264;
+    font-size: 100px
+}
+
+.intro p {
+    color: #79AC78;
+}
+
+.about-me { 
+    background-color: #618264;
+    color: #D0E7D2;
+}
+
+.profile {
+    border-radius: 30%;
+}
+
+.portfolio {
+    color:#618264;
+}
+
+.portfolio-bio {
+    color: #79AC78;
+}
+
+.card-body {
+    background-color: #618264;
+    color: #D0E7D2; 
+}
+
+.projects button {
+    border-color: #D0E7D2;
+    color: #D0E7D2;
+}
+
+.projects button:hover{
+    background-color: #D0E7D2;
+    color:#618264;
+}
+
+.resume{
+    background-color: #B0D9B1;
+    color: #618264;
+}
+
+.resume a {
+    background-color: #618264;
+    color: #B0D9B1;
+}
+
+.resume a:hover{
+    background-color: #61826490;
+    color: #B0D9B1;
+}
+
+.contact {
+    color:#618264;
+    text-decoration: none;
+}
+
+.about-me, .portfolio, .resume-heading{
+    font-size: 50px;
+}
+
+
+
+
+.typewriter {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    width: 10ch; /* Adjust based on the longest word */
+    height: 1.2em; /* Adjust based on font size */
+}
+
+.typewriter > .word {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    animation: typing 5s steps(10) infinite, blink 1s step-end infinite;
+    opacity: 0;
+}
+
+.word:nth-child(1) {
+    animation: typing 5s steps(10) 0s infinite, blink 1s step-end infinite, fadeIn 5s 0s infinite;
+}
+
+.word:nth-child(2) {
+    animation: typing 5s steps(10) 5s infinite, blink 1s step-end infinite, fadeIn 5s 5s infinite;
+}
+
+.word:nth-child(3) {
+    animation: typing 5s steps(10) 10s infinite, blink 1s step-end infinite, fadeIn 5s 10s infinite;
+}
+
+.word:nth-child(4) {
+    animation: typing 5s steps(10) 15s infinite, blink 1s step-end infinite, fadeIn 5s 15s infinite;
+}
+
+.word:nth-child(5) {
+    animation: typing 5s steps(10) 20s infinite, blink 1s step-end infinite, fadeIn 5s 20s infinite;
+}
+
+@keyframes typing {
+    0%, 20%, 40%, 60%, 80%, 100% { width: 0; opacity: 0; }
+    10%, 30%, 50%, 70%, 90% { width: 10ch; opacity: 1; }
+}
+
+@keyframes blink {
+    50% { border-right: 0.1em solid transparent; }
+    100% { border-right: 0.1em solid black; }
+}
+
+@keyframes fadeIn {
+    0%, 20%, 40%, 60%, 80%, 100% { opacity: 0; }
+}
